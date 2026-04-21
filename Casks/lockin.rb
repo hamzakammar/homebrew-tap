@@ -9,6 +9,8 @@ cask "lockin" do
 
   app "LockIn.app"
 
+  quarantine false
+
   zap trash: [
     "~/.lockin",
     "~/Library/Logs/LockIn",

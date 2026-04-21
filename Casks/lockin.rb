@@ -9,6 +9,12 @@ cask "lockin" do
 
   app "LockIn.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "#{appdir}/LockIn.app"],
+      sudo: false
+  end
+
   zap trash: [
     "~/.lockin",
     "~/Library/Logs/LockIn",

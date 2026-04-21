@@ -1,6 +1,6 @@
 cask "lockin" do
-  version "1.0.7"
-  sha256 "5afea187a95dc27d4d84e71e11dba3fb167ca99396297e84f407da9f920b63b9"
+  version "1.0.8"
+  sha256 "35fed70a3e5b2487fb01eb7506bf53bd7ea98f5f7858f46c602c566b79b50561"
 
   url "https://github.com/hamzakammar/lockin/releases/download/v#{version}/LockIn-#{version}.zip"
   name "LockIn"
